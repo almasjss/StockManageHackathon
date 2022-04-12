@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  transition: all 250ms;
+  font-family: monospace;
+}
+body {
+  display: grid;
+	grid-template-columns: repeat(2, 33%);
+	grid-template-rows: repeat(2, 33%);
+	grid-template-areas:
+		"header header header"
+    "lside forms rside"
+    "footer footer footer";
+  justify-items: stretch;
+  align-items: stretch;
+  min-height: 100vh;
+}
+header {
+  grid-area: header;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  align-self: center;
+}
+footer {
+  grid-area: footer;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  align-self: center;
+}
+main {
+  grid-area: forms;
+  width: 100%;
+  display: block;
+  align-self: center;
+}
+form > input {
+  font-family: monospace;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 18px;
+  margin: 5px 0 0 0;
+  border: 1px solid #000;
+}
+form > input:focus {
+  outline-style: none;
+  border-color: #f706ff;
+  box-shadow: 0 0 2px 0 #000;
+}
+form > input[type=submit] {
+  text-transform: capitalize;
+}
+
+.controls {
+  font-size: 0;
+}
+.controls > * {
+  display: inline-block;
+  text-align: center;
+}
+.tab-link {
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 5px;
+  width: 50%;
+}
+.tab-link:hover {
+  color: white;
+  background-color: #000;
+}
+.tab-link.active {
+  color: #000;
+  background-color: #ccc;
+}
+.error {
+  color: red;
+}
+.successfully {
+  color: green;
+}
+span.error,
+span.successfully {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 0;
+}
+span.error {
+  animation: error 3s infinite;
+}
+span.successfully {
+  animation: successfully 3s infinite;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+}
+.button-link {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  color: #000;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 18px;
+  line-height: 1.15;
+  margin: 5px 0 0 0;
+  border: 1px solid #000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.button-link:visited {
+  color: #000;
+}
+.button-link:hover, .button:hover {
+  color: #84ca22;
+}
+.button-link:active, .button:active {
+  border-color: #f706ff;
+  color: #f706ff;
+  box-shadow: 0 0 2px 0 #000;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+@keyframes error {
+  0% {
+    color: red;
+    background-color: transparent;
+  }
+  50% {
+    color: white;
+    background-color: red;
+  }
+  100% {
+    color: red;
+    background-color: transparent;
+  }
+}
+@keyframes successfully {
+  0% {
+    color: green;
+    background-color: transparent;
+  }
+  50% {
+    color: white;
+    background-color: green;
+  }
+  100% {
+    color: green;
+    background-color: transparent;
+  }
+}
