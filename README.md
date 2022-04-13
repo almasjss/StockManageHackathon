@@ -1,5 +1,6 @@
 # Stock Manager
 [![PHP version](https://img.shields.io/packagist/php-v/natanfelles/php-server.svg?colorB=blueviolet&label=PHP%20version&style=flat)](https://php.net/downloads.php)
+
 Stock Manager is a web application with the following functionality
 * Ability to track stock prices in real time
 <p align="center">
