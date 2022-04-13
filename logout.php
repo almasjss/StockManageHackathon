@@ -17,7 +17,6 @@ session_destroy();
     <?= '<span class="successfully">You have been logged out!</span>'; ?>
     <a href="index.php" class="button-link">go main page</a>
   </main>
-  <footer>&lt;/&gt; 20!7</footer>
   <script src="js/index.js" async></script>
 </body>
 </html>

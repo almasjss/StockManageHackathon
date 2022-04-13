@@ -19,7 +19,7 @@
   }
 ?>
 <body>
-  <header>welcome</header>
+  <header>Stock Manager Almas, Dias</header>
   <main>
     <div class="controls tabs">
       <div id="login-btn" class="tab-link active">Log In</div>
@@ -41,7 +41,6 @@
       <input type="submit" class="button" name="signin" value="sign in">
     </form>
   </main>
-  <footer>&lt;/&gt; 20!7</footer>
   <script src="js/index.js" async></script>
 </body>
 </html>

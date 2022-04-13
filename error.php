@@ -20,7 +20,6 @@
     ?></span>
     <a href="index.php" class="button-link">go back</a>
   </main>
-  <footer>&lt;/&gt; 20!7</footer>
   <script src="js/index.js"></script>
   </body>
   </html>
