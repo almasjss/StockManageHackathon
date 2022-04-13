@@ -23,7 +23,7 @@
   <main>
     <div class="controls tabs">
       <div id="login-btn" class="tab-link active">Log In</div>
-      <div id="signin-btn" class="tab-link">Sign In</div>
+      <div id="signin-btn" class="tab-link">Sign Up</div>
     </div>
     <form action="index.php" method="post" id="login-form" class="form">
       <input type="email" name="email" required placeholder="email@mail.com">
