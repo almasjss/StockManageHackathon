@@ -36,9 +36,9 @@
       <input type="email" name="email" required placeholder="email@mail.com">
       <input type="password" name="psw" required placeholder="password">
       <input type="password" name="repsw" required placeholder="repeat password">
-      <input type="text" name="phone" required placeholder="+357(__)_______">
+      <input type="text" name="phone" required placeholder="+7(__)_______">
       <input type="text" name="address" required placeholder="Address">
-      <input type="submit" class="button" name="signin" value="sign in">
+      <input type="submit" class="button" name="signin" value="sign up">
     </form>
   </main>
   <script src="js/index.js" async></script>
