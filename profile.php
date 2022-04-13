@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
       <input type="submit" class="button" name="updateinfo" value="save">
     </form>
     <a href="logout.php" class="button-link">log out without save</a>
-    <a href="stock.php" class="button-link">Stock Manage</a>
+    <a href="stock.php" class="button-link">Stock Manager</a>
   </main>
   <script src="js/index.js"></script>
 </body>
