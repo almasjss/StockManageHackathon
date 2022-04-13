@@ -46,7 +46,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
     <a href="logout.php" class="button-link">log out without save</a>
     <a href="stock.php" class="button-link">Stock Manage</a>
   </main>
-  <footer>&lt;/&gt; 20!7</footer>
   <script src="js/index.js"></script>
 </body>
 </html>

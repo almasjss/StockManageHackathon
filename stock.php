@@ -8,7 +8,7 @@
 				border: 1.00px solid;
 				border-color: #e1e1e1;
 				background-color: #f4f4f4;
-				font-family: Times New Roman;
+                font-family: monospace;
 				width: 390px;
 			}
 			.stockSearchText {
@@ -31,7 +31,7 @@
 			}
 			.italicText {
 				background-color: #f2f2f2;
-				font-family:Times New Roman;
+                font-family: monospace;
 				font-size:17px;
 				font-style:italic;
 				text-align:left;
