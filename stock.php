@@ -1173,7 +1173,7 @@
 
         	<!-- Botton table and Logo -->
 
-			<div id = "displayButton"><button type = "button" style = "font-size: 13px" onclick = "displayNews()">click to show stock news<br/><img class = "clickButtonLogo" src = "http://cs-server.usc.edu:45678/hw/hw6/images/Gray_Arrow_Down.png"></button>
+			<div id = "displayButton"><button type = "button" style = "font-size: 13px" onclick = "displayNews()">click to show stock news<br/></button>
 			</div>
 
 
@@ -1191,13 +1191,13 @@
 					arrayDateJava.reverse();
 
 					function emptyNews() {
-						document.getElementById("displayButton").innerHTML = "<button type = 'button' style = 'font-size: 13px' onclick = 'displayNews()'>click to show stock news<br/><img class = 'clickButtonLogo' src = 'http://cs-server.usc.edu:45678/hw/hw6/images/Gray_Arrow_Down.png'></button>";
+						document.getElementById("displayButton").innerHTML = "<button type = 'button' style = 'font-size: 13px' onclick = 'displayNews()'>click to show stock news<br/></button>";
 						document.getElementById("stockNews").innerHTML = "";
 					}
 
 					function displayNews() {
 						var displayPicAndWords = "</br>";
-				   		document.getElementById("displayButton").innerHTML = "<button type = 'button' style = 'font-size: 13px' onclick = 'emptyNews()'>click to hide stock news<br/><img class = 'clickButtonLogo' src = 'http://cs-server.usc.edu:45678/hw/hw6/images/Gray_Arrow_Up.png'></button>";
+				   		document.getElementById("displayButton").innerHTML = "<button type = 'button' style = 'font-size: 13px' onclick = 'emptyNews()'>click to hide stock news<br/></button>";
 						displayPicAndWords = displayPicAndWords + "<table class = 'newsTable'>";
 						displayPicAndWords = displayPicAndWords + "<tr><td class = 'newsInner'><a class = 'blueToBlack' href = " +arrayLinkJava[4] + " target = '_blank'>"+arrayTitleJava[4]+"</a>"+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"Publicated Time: " + arrayDateJava[4] + " </tr>";
 						displayPicAndWords = displayPicAndWords + "<tr><td class = 'newsInner'><a class = 'blueToBlack' href = " +arrayLinkJava[3] + " target = '_blank'>"+arrayTitleJava[3]+"</a>"+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"Publicated Time: " + arrayDateJava[3] + " </tr>";
